@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string? flag = "";
             while(flag != "Q"){
