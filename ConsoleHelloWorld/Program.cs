@@ -53,6 +53,12 @@
                 Console.Write("Press Q to quit or any other key to continue: ");
                 flag = Console.ReadLine()?.ToUpper();
             }
+            static void line(string ch, int n){
+                for (int i = 0; i < n; i++){
+                    Console.Write(ch);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
